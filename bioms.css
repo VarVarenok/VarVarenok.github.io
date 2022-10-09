@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	font-family: sans-serif;
+}
+.hat{
+background: black;
+display: flex;
+	justify-content: space-between;
+	padding: 15px 350px;
+}
+.hat a{
+	color: white;
+	font-size: 22px;
+	text-decoration: none;
+	
+}
+.hat a:hover{
+	color: lightgreen;
+	text-decoration: underline;
+}
+.promo{
+      height: 700px;
+      background: url(bioms.jpg);
+      border-style: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.promo_text{
+	font-size: 80px
+}
